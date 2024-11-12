@@ -62,6 +62,7 @@ for (let i = 0; i < calificaciones.length; i++) {
 let precios = [12, 26, 2, 80, 47, 18, 39, 95];
 
 for (let i = 0; i < precios.length; i++) {
+    let precio = precios[i];
     
     if (precios[i] < 20) {  //Comienzo de los condicionales para la clasificación del producto en base al precio
         console.log("Producto económico");
