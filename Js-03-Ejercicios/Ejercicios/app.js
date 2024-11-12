@@ -7,12 +7,12 @@
 
 // Solución 
 
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numeros = [12, 20, 33, 1, 8, 6, 57, 78, 19, 13, 22]; //Arreglo con numeros enteros
 
 for (let i = 0; i < numeros.length; i++) {
     let numero = numeros[i];
     
-    if (numero % 2 === 0) {
+    if (numero % 2 === 0) {  // Si el numero al dividirse por dos da como resultado un numero entero, entonces es par
         console.log(`El número ${numero} es par`);
     } else {
         console.log(`El número ${numero} es impar`);
@@ -31,12 +31,12 @@ for (let i = 0; i < numeros.length; i++) {
 // Solución: 
 
 
-let calificaciones = [45, 67, 85, 78, 90, 56, 70, 88, 60];
+let calificaciones = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
 
 for (let i = 0; i < calificaciones.length; i++) {
   let calificacion = calificaciones[i];
     
-  if (calificacion < 60) {
+  if (calificacion < 60) {  //Comienzo de los condicionales para determinar la clasificación
     console.log("Reprobado");
   } else if (calificacion >= 60 && calificacion <= 80) {
     console.log("Aprobado");
@@ -59,11 +59,11 @@ for (let i = 0; i < calificaciones.length; i++) {
 
 // Solución: 
 
-let precios = [12, 25, 7, 45, 60, 18, 30, 55];
+let precios = [12, 26, 2, 80, 47, 18, 39, 95];
 
 for (let i = 0; i < precios.length; i++) {
     
-    if (precios[i] < 20) {
+    if (precios[i] < 20) {  //Comienzo de los condicionales para la clasificación del producto en base al precio
         console.log("Producto económico");
     } else if (precios[i] >= 20 && precios[i] <= 50) {
         console.log("Producto de precio moderado");
